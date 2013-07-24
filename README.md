@@ -6,3 +6,8 @@ This is the central repository for Creative Services RSI product templates. This
 *If you are unsure if a version you are using is up-to-date, you may browse the commit history to see what changes have been made.*
 
 **Note: This is a public repository and should be used for non-sensitive content.**
+
+## Setup
+```
+git clonse git@github.com:sni-interactive-ad-experience/rsi.git
+```
