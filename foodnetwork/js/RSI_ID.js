@@ -136,6 +136,7 @@ if( $centerResult ) {
 // Removed keywords.js dependency
 var _keywordList = {};
 _keywordList[$siSponsor] = keywords;
+$siStartup();
 
 function $siStartup() {
   var exactMatch = false;
