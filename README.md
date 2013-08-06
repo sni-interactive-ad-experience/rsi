@@ -9,5 +9,5 @@ This is the central repository for Creative Services RSI product templates. This
 
 ## Setup
 ```
-git clonse git@github.com:sni-interactive-ad-experience/rsi.git
+git clone git@github.com:sni-interactive-ad-experience/rsi.git
 ```
