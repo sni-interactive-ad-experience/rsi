@@ -119,7 +119,7 @@ centerTemplate += "    <\/div>";
 centerTemplate += "    <div class=\"chef-desc user-info clrfix\">";
 centerTemplate += "      <div class=\"rz-tl-txt02 chef-desc-dd\">";
 centerTemplate += "        <a target=\"_blank\" onClick=\"window.open('{{courtesyLink}}', '_blank')\">{{sponsor}}<\/a>";
-centerTemplate += "        <span>&nbsp;says: <\/span>";
+centerTemplate += "        <span>{{sponsor}} says: <\/span>";
 centerTemplate += "      <\/div>";
 centerTemplate += "      <p class=\"dec\">{{description}}<\/p>";
 centerTemplate += "    <\/div>";
