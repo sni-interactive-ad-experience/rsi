@@ -43,7 +43,7 @@ var CenterRecipe = function() {
   this.cooktime = "";
   this.ingredients = "";
   this.description = "";
-  this.courtesyLink = "http://adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2092265&Redirect=http:%2f%2fwww.porkbeinspired.com/Index.aspx";
+  this.courtesyLink = "";
   this.impression1x1 = "";
   this.internalTracking = trueCount;
   this.researchTag = "";
