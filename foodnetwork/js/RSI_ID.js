@@ -98,7 +98,7 @@ if( matchedRecipeSet.length > 1 ) {
   centerTemplate += "  <a href=\"{{clicktag}}\"><img src=\"{{image}}\" alt=\"{{title}}\" width=\"92\" height=\"69\"><\/a>";
   centerTemplate += "<\/div>";
   centerTemplate += "<div class=\"detail clrfix\">";
-  centerTemplate += "  <p><a href=\"{{courtesyLink}}\" target=\"_blank\">Recipe courtesy {{sponsor}}<\/a><\/p>";
+  centerTemplate += "  <p><a href=\"{{courtesyLink}}\" target=\"_blank\">Recipe courtesy of {{sponsor}}<\/a><\/p>";
   centerTemplate += "  <p>Ingredients: {{ingredients}}<\/p>";
   centerTemplate += "  <ul class=\"clrfix\">";
   centerTemplate += "    <li><span>Cook Time<\/span> {{cooktime}}<\/li>";

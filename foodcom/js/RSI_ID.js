@@ -108,7 +108,7 @@ centerTemplate += "  <div class=\"sr-recipe-item-e\"> <a href=\"{{clicktag}}\" >
 centerTemplate += "  <div class=\"sr-recipe-item-w\">";
 centerTemplate += "    <div class=\"user-info clrfix\">";
 centerTemplate += "      <div class=\"sr-reviews\">";
-centerTemplate += "        <p class=\"rz-tl-txt02\">Recipe courtesy <a href=\"{{courtesyLink}}\" target=\"_blank\" title=\"{{sponsor}}\">{{sponsor}}</a></span>";
+centerTemplate += "        <p class=\"rz-tl-txt02\">Recipe courtesy of <a href=\"{{courtesyLink}}\" target=\"_blank\" title=\"{{sponsor}}\">{{sponsor}}</a></span>";
 centerTemplate += "      <\/div>";
 centerTemplate += "    <\/div>";
 centerTemplate += "    <div class=\"cook-time-estimate\">";
