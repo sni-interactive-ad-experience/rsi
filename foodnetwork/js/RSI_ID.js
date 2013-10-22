@@ -112,7 +112,7 @@ if( matchedRecipeSet.length > 1 ) {
   centerTemplate += "<\/div>";
 
 
-if( $centerResult ) {
+if( $centerResult && centerRecipe ) {
   // render center template and insert into page
   centerTemplate = centerTemplate.replace(/\{\{title\}\}/g, centerRecipe.title );
   centerTemplate = centerTemplate.replace(/\{\{sponsor\}\}/g, centerRecipe.sponsor );
