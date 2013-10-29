@@ -143,11 +143,10 @@ if( $centerResult && centerRecipe ) {
   centerTemplate = centerTemplate.replace(/\{\{cooktime\}\}/g, centerRecipe.cooktime );
   centerTemplate = centerTemplate.replace(/\{\{preptime\}\}/g, centerRecipe.preptime );
   centerTemplate = centerTemplate.replace(/\{\{ingredients\}\}/g, centerRecipe.ingredients );
+  centerTemplate = centerTemplate.replace(/\{\{courtesyLink\}\}/g, centerRecipe.courtesyLink );
   centerTemplate = centerTemplate.replace(/\{\{impression1x1\}\}/g, centerRecipe.impression1x1.replace(/\$random\$/g, (new Date()).getTime()) );
-  centerTemplate = centerTemplate.replace(/\{\{courtesyLink\}\}/g, centerRecipe.courtesyLink );
-  centerTemplate = centerTemplate.replace(/\{\{internalTracking\}\}/g, centerRecipe.internalTracking );
-  centerTemplate = centerTemplate.replace(/\{\{courtesyLink\}\}/g, centerRecipe.courtesyLink );
   centerTemplate = centerTemplate.replace(/\{\{internalTracking\}\}/g, centerRecipe.internalTracking.replace(/\$random\$/g, (new Date()).getTime()) );
+  centerTemplate = centerTemplate.replace(/\{\{researchTag\}\}/g, centerRecipe.researchTag.replace(/\$random\$/g, (new Date()).getTime()) );
 
   $('#sponsorCtr2').append(centerTemplate).show();
 }
