@@ -11,3 +11,5 @@ This is the central repository for Creative Services RSI product templates. This
 ```
 git clone git@github.com:sni-interactive-ad-experience/rsi.git
 ```
+
+Updated: Friday, March 21, 2014
