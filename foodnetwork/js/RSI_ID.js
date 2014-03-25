@@ -92,7 +92,7 @@ if( matchedRecipeSet.length > 1 ) {
   // Insert into page.
   var $centerResult = document.getElementById('sponsorCtr2');
   var centerTemplate="";
-  centerTemplate += "<span class=\"sponsor\">Sponsored Result<\/span>";
+  centerTemplate += "<span class=\"sponsor\">Sponsor Content<\/span>";
   centerTemplate += "<h3><a href=\"{{clicktag}}\">{{title}}<\/a><\/h3>";
   centerTemplate += "<div class=\"meta clrfix\">";
   centerTemplate += "  <a href=\"{{clicktag}}\"><img src=\"{{image}}\" alt=\"{{title}}\" width=\"92\" height=\"69\"><\/a>";
