@@ -12,18 +12,8 @@
        <div class="hd"><h4>Recipes from SPONSOR_NAME</h4></div>
        <div class="bd clrfix">
          <ul id="recipeListContainer">
-           <ads_repeat>
-            <li class="clrfix">
-              <a href="{adImageLinkID}" ><img src="{image}" alt="{altName}" width="92" height="69" ></a>
-              <div class="asi-inner clrfix">
-                <p class="title"><a href="{adLinkID}" >{name}</a></p>
-                <ul class="asi-variable-links">
-                  <li>{var1}</li>
-                  <li>{var2}</li>
-                </ul>
-              </div>
-            </li>
-          </ads_repeat>
+            <!-- please keep on one line -->
+           <ads_repeat><li class="clrfix"><a href="{adImageLinkID}" ><img src="{image}" alt="{altName}" width="92" height="69" ></a><div class="asi-inner clrfix"><p class="title"><a href="{adLinkID}" >{name}</a></p><ul class="asi-variable-links"><li>{var1}</li><li>{var2}</li></ul></div></li></ads_repeat>
          </ul>
         </div><!-- eo bd -->
         <div class="ft clrfix">
